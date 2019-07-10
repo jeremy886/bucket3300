@@ -1,0 +1,17 @@
+{
+    "version": "2.80b",
+    "description": "Free and open source 3D creation suite.",
+    "homepage": "https://www.blender.org/",
+    "license": "GPL-3.0-or-later",
+    "url": "https://builder.blender.org/download/blender-2.80-12ceea04344a-win64.zip",
+    "extract_dir": "blender-2.80.0-git.12ceea04344a-windows64",
+    "bin": [
+        "blender.exe"
+    ],
+    "shortcuts": [
+        [
+            "blender.exe",
+            "Blender"
+        ]
+    ]
+}
