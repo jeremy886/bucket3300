@@ -5,6 +5,6 @@
     "url": "https://www.renpy.org/dl/7.3.2/renpy-7.3.2-sdk.7z.exe#/dl.7z", 
     "bin": "renpy-7.3.2-sdk/renpy.exe",
     "shortcuts": [
-        ["renpy-7.3.2-sdk/renpy.exe"]
+        ["renpy.exe"]
     ]
 }
