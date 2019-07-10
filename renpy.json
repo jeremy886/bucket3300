@@ -1,0 +1,8 @@
+{
+    "homepage": "https://www.renpy.org",
+    "version": "7.3.2",
+    "description": "RenPy is a visual novel engine using words, images, and sounds to tell interactive stories on computers and mobile devices",
+    "url": "https://www.renpy.org/dl/7.3.2/renpy-7.3.2-sdk.7z.exe#/dl.7z", 
+    "bin": "renpy.exe",
+    "shortcuts": "RenPy"
+}
