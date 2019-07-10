@@ -3,5 +3,6 @@
     "version": "7.3.2",
     "description": "RenPy is a visual novel engine running on computers and mobile devices.",
     "url": "https://www.renpy.org/dl/7.3.2/renpy-7.3.2-sdk.7z.exe#/dl.7z", 
-    "bin": "renpy.exe"
+    "bin": "renpy-7.3.2-sdk/renpy.exe",
+    "shortcuts": "renpy-7.3.2-sdk/renpy.exe"
 }
