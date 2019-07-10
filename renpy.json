@@ -5,8 +5,10 @@
     "url": "https://www.renpy.org/dl/7.3.2/renpy-7.3.2-sdk.7z.exe#/dl.7z",
     "bin": "renpy.exe",
     "shortcuts": [
-        "renpy.exe",
-        "Renpy"
+        [
+            "renpy.exe",
+            "Renpy"
+        ]
     ],
     "extract_dir": "renpy-7.3.2-sdk"
 }
