@@ -8,5 +8,5 @@
         "renpy.exe",
         "Renpy"
     ],
-    "extract_dir": "renpy-7.3.2"
+    "extract_dir": "renpy-7.3.2-sdk"
 }
