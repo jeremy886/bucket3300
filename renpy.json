@@ -2,6 +2,11 @@
     "homepage": "https://www.renpy.org",
     "version": "7.3.2",
     "description": "RenPy is a visual novel engine running on computers and mobile devices.",
-    "url": "https://www.renpy.org/dl/7.3.2/renpy-7.3.2-sdk.7z.exe#/dl.7z", 
-    "bin": "renpy-7.3.2-sdk/renpy.exe"
+    "url": "https://www.renpy.org/dl/$version/renpy-$version-sdk.7z.exe#/dl.7z",
+    "bin": "renpy.exe",
+    "shortcuts": [
+        "renpy.exe",
+        "Renpy"
+    ],
+    "extract_dir": "vlc-$version"
 }
