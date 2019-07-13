@@ -1,0 +1,41 @@
+{
+    "homepage": "http://capture2text.sourceforge.net/",
+    "version": "4.6.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.1/Capture2Text_v4.6.1_64bit.zip",
+            "hash": "sha1:d44367779c0efcd9e85943058688cf83a03874aa"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.1/Capture2Text_v4.6.1_32bit.zip",
+            "hash": "sha1:95406b4b408a94deca76d06e72c664246d824778"
+        }
+    },
+    "extract_dir": "Capture2Text",
+    "shortcuts": [
+        [
+            "Capture2Text.exe",
+            "Capture2Text"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/capture2text/rss?path=/Capture2Text",
+        "re": "Capture2Text_v([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_64bit.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_32bit.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
+            }
+        }
+    }
+}
