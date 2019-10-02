@@ -10,6 +10,7 @@
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe.nsis\" -Recurse -Force",
     "shortcuts": [
         [
+            "scide.exe",
             "SuperCollider"
         ]
     ]
