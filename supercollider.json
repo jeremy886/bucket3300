@@ -1,0 +1,29 @@
+{
+    "version": "3.10.3",
+    "description": "A platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound.",
+    "homepage": "https://supercollider.github.io/",
+    "license": "GPL-3.0-only",
+    "checkver": {
+        "url": "https://github.com/supercollider/supercollider/releases/latest",
+        "re":  "SuperCollider-<version>[\\d\\w._-].*x64[\\d\\w._-].*\\.exe"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x64-VS-67a1eb1.exe"
+        },
+        "32bit": {
+            "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x86-VS-67a1eb1.exe"
+        }
+    },
+    "bin": [
+        "scide.exe"
+    ],
+    "shortcuts": [
+        [
+            "SuperCollider"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/supercollider/supercollider/releases/download/Version-$version/SuperCollider-3.10.3_Release-x64-VS-67a1eb1.exe"
+    }
+}
