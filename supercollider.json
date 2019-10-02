@@ -9,10 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x64-VS-67a1eb1.exe"
+            "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x64-VS-67a1eb1.exe",
+            "extract_dir": "supercollider-win64"
         },
         "32bit": {
-            "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x86-VS-67a1eb1.exe"
+            "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x86-VS-67a1eb1.exe",
+            "extract_dir": "supercollider-win32"
         }
     },
     "bin": [
