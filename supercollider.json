@@ -3,16 +3,11 @@
     "description": "A platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound.",
     "homepage": "https://supercollider.github.io/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x64-VS-67a1eb1.exe",
-    "installer": {
-        "args": [
-            "/VERYSILENT",
-            "/DIR=\"$dir\""
-        ]
-    },
+    "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.10.3/SuperCollider-3.10.3_Release-x64-VS-67a1eb1.exe#/dl.7z",
     "bin": [
         "scide.exe"
     ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe.nsis\" -Recurse -Force",
     "shortcuts": [
         [
             "SuperCollider"
