@@ -1,0 +1,17 @@
+{
+    "version": "1.6.0a",
+    "description": "open source cross-platform interactive white board for use in schools",
+    "homepage": "https://openboard.ch",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.6.0a/OpenBoard_Installer_1.6.0-a.0.exe#/dl.7z",
+    "extract_dir": "OpenBoard_ex",
+    "bin": [
+        "OpenBoard.exe"
+    ],
+    "shortcuts": [
+        [
+            "OpenBoard.exe",
+            "OpenBoard"
+        ]
+    ]
+}
