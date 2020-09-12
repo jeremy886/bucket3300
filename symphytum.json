@@ -1,0 +1,16 @@
+{
+    "description": "Symphytum is a personal database software for everyone who desires to manage and organize data in an easy and intuitive way.",
+    "homepage": "https://github.com/giowck/symphytum",
+    "version": "2.6",
+    "license": "BSD-2-Clause",
+    "url": "https://github.com/giowck/symphytum/releases/download/v2.6/Symphytum-windows-portable.zip",
+    "bin": "symphytum.exe",
+    "checkver": {
+        "github": "https://github.com/giowck/symphytum",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?((?<number>[\\d.]+\\.[1-9])(?:\\.0)?)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/giowck/symphytum/releases/download/$version/Symphytum-windows-portable.zip"
+    }
+}
+
