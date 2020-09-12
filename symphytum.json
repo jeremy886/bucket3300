@@ -7,7 +7,7 @@
     "bin": "Symphytum portable\\symphytum.exe",
     "shortcuts": [
         [
-            "symphytum.exe",
+            "Symphytum portable\\symphytum.exe",
             "Symphytum"
         ]
     ],
