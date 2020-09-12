@@ -4,7 +4,7 @@
     "version": "2.6",
     "license": "BSD-2-Clause",
     "url": "https://github.com/giowck/symphytum/releases/download/v2.6/Symphytum-windows-portable.zip",
-    "bin": "symphytum.exe",
+    "bin": "Symphytum portable\\symphytum.exe",
     "shortcuts": [
         [
             "symphytum.exe",
