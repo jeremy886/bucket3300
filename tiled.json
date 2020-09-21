@@ -1,0 +1,12 @@
+{
+    "version": "1.2.5",
+    "url": "http://bb.py3.in:8080/Tiled-1.2.5-win64.msi",
+    "extract_dir": "PFiles\\Tiled",
+    "bin": "tiled.exe",
+    "shortcuts": [
+        [
+            "tiled.exe",
+            "Tiled"
+        ]
+    ]
+}
