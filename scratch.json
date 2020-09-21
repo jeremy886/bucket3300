@@ -3,7 +3,7 @@
     "homepage": "https://scratch.mit.edu/",
     "version": "3.0",
     "license": "BSD 3-Clause",
-    "url": "https://downloads.scratch.mit.edu/desktop/Scratch Setup.exe#/dl.7z",
+    "url": "https://downloads.scratch.mit.edu/desktop/Scratch%20%Setup.exe#/dl.7z",
     "extract_dir": "scratch_extract_dir",
     "bin": "scratch.exe",
     "hash": "24c5eaeecb79dc7f693fd8fb6e1bcd3e5314109a78f81a7f9b9f3e6408c40f92",
