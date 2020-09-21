@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.blender.org/download/Blender2.83/blender-2.83.6-windows64.zip",
-            "hash": "4d0eb9728b75c8e34aacd98edf112d6db8b022f759d900fd564e4437e6ce3fc0",
+            "hash": "md5:284e54d15ac004e8499ddfb8e84ff80a",
             "extract_dir": "blender-2.83.6-windows64"
         }
     },
