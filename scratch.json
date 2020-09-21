@@ -1,0 +1,16 @@
+{
+    "description": "MIT Scratch is a graphic programming tool for every kid.",
+    "homepage": "https://scratch.mit.edu/",
+    "version": "3.0",
+    "license": "BSD 3-Clause",
+    
+    "url": "https://downloads.scratch.mit.edu/desktop/Scratch%20Setup.exe",
+    "extract_dir": "scratch_extract_dir",
+    "bin": "scratch.exe",
+    "shortcuts": [
+        [
+            "scratch.exe",
+            "Scratch"
+        ]
+    ]
+}
