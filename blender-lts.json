@@ -26,9 +26,6 @@
                 "url": "https://download.blender.org/release/Blender$majorVersion.$minorVersion/blender-$version-windows64.zip",
                 "extract_dir": "blender-$version-windows64"
             }
-        },
-        "hash": {
-            "url": "$baseurl/blender-$version.sha256"
         }
     }
 }
